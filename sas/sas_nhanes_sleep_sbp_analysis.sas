@@ -6,7 +6,7 @@
 options validvarname=v7;
 
 /* 1) Set project directory (edit this path) */
-%let PROJECT_DIR=/home/yourname/NHANES_Lab6;
+%let PROJECT_DIR=/path/to/nhanes/xpt/files;
 
 /* 2) Macro to import XPT into WORK with a consistent name */
 %macro import_xpt(xpt=, out=);
