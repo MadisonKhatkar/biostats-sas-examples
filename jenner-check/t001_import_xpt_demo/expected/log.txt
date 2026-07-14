@@ -1,0 +1,38 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T061458Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: Option VALIDVARNAME changed to V7.
+NOTE: DATA work.DEMO_I
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: Read 6 rows from DATALINES.
+NOTE: Wrote work.DEMO_I (6 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC COPY in=work out=demolib
+
+NOTE: Copying DEMO_I to DEMOLIB (6 observations).
+NOTE: 1 member(s) copied.
+NOTE: XPORT library DEMOLIB closed.
+NOTE: Library DEMOLIB cleared.
+NOTE: DATA DEMO_I
+
+
+NOTE: Read 6 rows from xptlib.DEMO_I.
+NOTE: Wrote DEMO_I (6 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: XPORT library XPTLIB closed.
+NOTE: Library XPTLIB cleared.
+NOTE: PROC CONTENTS data=DEMO_I
+
+NOTE: PROC CONTENTS completed: 6 observations, 5 variables
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_riagendr.spec.json
+NOTE: ODS plot written: freq_ridreth1.spec.json
+NOTE: PROC FREQ statement used.

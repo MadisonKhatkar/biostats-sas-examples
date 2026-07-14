@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-14T16:08:32Z",
+  "_captured_run_id": "r_fecc639cff1a4e0497facb46eeb454c8",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Option VALIDVARNAME changed to V7.",
+    "NOTE: Copying DEMO_I to DEMOLIB (6 observations).",
+    "NOTE: Read 6 rows from xptlib.DEMO_I.",
+    "NOTE: PROC CONTENTS completed: 6 observations, 5 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
