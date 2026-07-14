@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_import_xpt_demo",
+  "source_file": "sas/sas_nhanes_sleep_sbp_analysis.sas",
+  "source_blob_sha": "e32babeae2d31db18f87ad8c7a341f04d2ee366a",
+  "source_commit": "7ce99397ecde51e3ef0ce5213c3d6faf0a00d519",
+  "notes": "Exercises the repo's %import_xpt macro (copied verbatim) against a small NHANES-shaped DEMO_I transport file built inline via PROC COPY, so the XPT import runs without the external CDC download; validvarname=v7 from the repo header applies. Follows with PROC CONTENTS/MEANS/FREQ on the imported demographics."
+}
